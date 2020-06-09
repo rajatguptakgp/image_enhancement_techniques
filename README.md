@@ -8,7 +8,7 @@ This work is about removing noise/haze from noisy/hazy images to obtain clearer 
 
 This work is a result of participation in (New Trends in Image Restoration and Enhancement workshop) **NTIRE 2020 Real Image Denoising Challenge - Track2 – sRGB**, in conjunction with (Conference on Computer Vision and Pattern Recognition) **CVPR 2020, Seattle, US**.
 
-Participation in NTIRE 2020 Denoising Challenge led my team secure **16th** position among **250+** registrants. [PUBLICATION] (https://arxiv.org/abs/2005.04117)
+Participation in NTIRE 2020 Denoising Challenge led my team secure **16th** position among **250+** registrants. [PUBLICATION](https://arxiv.org/abs/2005.04117)
 
 This work also discusses implementation on Image Dehazing, as an extension to the original work on Image Denoising. Lastly, it compares the approach with State of the art approaches on Image Translation tasks - CycleGAN and Pix2Pix. 
 
