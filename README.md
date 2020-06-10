@@ -10,7 +10,7 @@ This work is a result of participation in (New Trends in Image Restoration and E
 
 Participation in NTIRE 2020 Denoising Challenge led my team secure **16th** position among **250+** registrants. [Publication Link](https://arxiv.org/abs/2005.04117)
 
-This work also discusses implementation on Image Dehazing, as an extension to the original work on Image Denoising. Lastly, it compares the approach with State of the art approaches on Image Translation tasks - CycleGAN and Pix2Pix. 
+This work also discusses implementation on **Image Dehazing** as an extension to the original work on Image Denoising. Lastly, it compares the approach with State of the art approaches on Image Translation tasks - CycleGAN and Pix2Pix. 
 
 | Technique | Model  | Epochs | Mean PSNR | Mean SSIM |
 | :---:   | :-: | :-: | :-: | :-: |
@@ -19,7 +19,7 @@ This work also discusses implementation on Image Dehazing, as an extension to th
 | Dehazing | CycleGAN | 1000 | 13.44 | 0.54 |
 | Dehazing | Pix2Pix | 1000 | 15.96 | 0.60 |
 
-From the generated dialog responses, it is inferred that after pretraining, the problem of natural language generation goes away but context relevance still remains to be an issue.
+From the results, we can conclude that our basic PyTorch implementation has been able to perform quite well compared to state-of-the-art approaches - CycleGAN and Pix2Pix.
 
 ## Dependencies
  - PyTorch
@@ -35,12 +35,12 @@ Image Denoising
 - This work makes use of the Smartphone Image Denoising Dataset+ [SIDD+](https://arxiv.org/abs/1710.03957). The data was made available on the Codalab website where the competition was hosted.
 
 Image Dehazing
-- This work makes use of **Dense-Haze** dataset
+- This work makes use of [Dense-Haze](https://arxiv.org/abs/1904.02904) dataset. 
 
 ## Data Preprocessing
-The data in original form is a raw text file with `_eou_` as the delimiter between any two sentences. 
+The data in original forms are extremely high resolution images. Due to lack of computing resources, the images have been down-sized to 256 pixels.
 
-### For Vanilla Seq2Seq
+### For Image Denoising
 - Use the `make_data_vseq2seq.py` script to process the data splits (train, validation and test) into a CSV file.
 
 ### For HRED
