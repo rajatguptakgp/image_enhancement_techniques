@@ -38,13 +38,13 @@ From the results, we can conclude that our basic PyTorch implementation has been
 - This work makes use of [Dense-Haze](https://arxiv.org/abs/1904.02904) dataset for the purpose of Image Dehazing. 
 
 ## Data Preprocessing
-The data in original forms are extremely high resolution images. Due to lack of computing resources, the images have been down-sized to 256 pixels.
+The data in original forms are extremely high resolution images. Due to lack of computing resources, for training purposes, the images have been down-sized to 256 pixels.
 
 ### For Image Denoising
-- Use the `denoising_make_data.py` script to process the images and convert them to a numPy array (.npy) file.
+- Use the `denoising_make_data.py` script to process images and convert them to a numPy array (.npy) file.
 
 ### For Image Dehazing
-- Use the `dehazing_make_data.py` script to process the images and convert them to a numPy array (.npy) file. 
+- Use the `dehazing_make_data.py` script to process images and convert them to a numPy array (.npy) file. 
 
 ## References
 * [Denoising Autoencoder](https://github.com/GunhoChoi/Kind-PyTorch-Tutorial/blob/master/07_Denoising_Autoencoder/Denoising_Autoencoder.ipynb)
