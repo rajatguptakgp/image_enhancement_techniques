@@ -32,7 +32,7 @@ From the results, we can conclude that our basic PyTorch implementation has been
 ## Dataset
 
 Image Denoising
-- This work makes use of the Smartphone Image Denoising Dataset+ [SIDD+](https://arxiv.org/abs/1710.03957). The data was made available on the Codalab website where the competition was hosted.
+- This work makes use of the Smartphone Image Denoising Dataset [SIDD](https://www.eecs.yorku.ca/~kamel/sidd/). The data was made available on the Codalab website where the competition was hosted.
 
 Image Dehazing
 - This work makes use of [Dense-Haze](https://arxiv.org/abs/1904.02904) dataset. 
