@@ -41,11 +41,13 @@ Image Dehazing
 The data in original forms are extremely high resolution images. Due to lack of computing resources, the images have been down-sized to 256 pixels.
 
 ### For Image Denoising
-- Use the `make_data_vseq2seq.py` script to process the data splits (train, validation and test) into a CSV file.
+- Use the `denoising_make_data.py` script to process the images and convert them to a numPy array (.npy) file.
 
 ### For HRED
-- Use the `make_data_hred.py` script to process the data splits (train, validation and test) into a CSV file. Additional samples for each dialog have been created since they have generic responses and also because the number of dialogs is less, which may not be enough to train the model effectively. 
+- Use the `dehazing_make_data.py` script to process the images and convert them to a numPy array (.npy) file. 
 
 ## Reference
-* [PyTorch Seq2Seq](https://github.com/bentrevett/pytorch-seq2seq)
+* [Denoising Autoencoder] (https://github.com/GunhoChoi/Kind-PyTorch-Tutorial/blob/master/07_Denoising_Autoencoder/Denoising_Autoencoder.ipynb)
+* [CycleGAN & Pix2Pix (Official)](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+
  
