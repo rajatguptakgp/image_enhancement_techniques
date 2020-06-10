@@ -43,11 +43,11 @@ The data in original forms are extremely high resolution images. Due to lack of 
 ### For Image Denoising
 - Use the `denoising_make_data.py` script to process the images and convert them to a numPy array (.npy) file.
 
-### For HRED
+### For Image Dehazing
 - Use the `dehazing_make_data.py` script to process the images and convert them to a numPy array (.npy) file. 
 
-## Reference
-* [Denoising Autoencoder] (https://github.com/GunhoChoi/Kind-PyTorch-Tutorial/blob/master/07_Denoising_Autoencoder/Denoising_Autoencoder.ipynb)
+## References
+* [Denoising Autoencoder](https://github.com/GunhoChoi/Kind-PyTorch-Tutorial/blob/master/07_Denoising_Autoencoder/Denoising_Autoencoder.ipynb)
 * [CycleGAN & Pix2Pix (Official)](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 
  
