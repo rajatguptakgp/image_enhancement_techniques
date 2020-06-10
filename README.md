@@ -10,7 +10,7 @@ The work is a result of participation in (New Trends in Image Restoration and En
 
 Participation in NTIRE 2020 Denoising Challenge led my team secure **16th** position among **250+** registrants. [Publication Link](https://arxiv.org/abs/2005.04117)
 
-The work also discusses implementation on **Image Dehazing** as an extension to the original work on Image Denoising. Lastly, it compares the approach with State of the art approaches on Image Translation tasks - CycleGAN and Pix2Pix. 
+The work also discusses implementation on **Image Dehazing** as an extension to the original work on Image Denoising. Lastly, it compares our approach with two state of the art approaches on Image Translation tasks - CycleGAN and Pix2Pix. 
 
 | Technique | Model  | Epochs | Mean PSNR | Mean SSIM |
 | :---:   | :-: | :-: | :-: | :-: |
@@ -35,7 +35,7 @@ From the results, we can conclude that our basic PyTorch implementation has been
 - This work makes use of the Smartphone Image Denoising Dataset [SIDD](https://www.eecs.yorku.ca/~kamel/sidd/). The data was made available on the Codalab website where the competition was hosted.
 
 ### Image Dehazing
-- This work makes use of [Dense-Haze](https://arxiv.org/abs/1904.02904) dataset. 
+- This work makes use of [Dense-Haze](https://arxiv.org/abs/1904.02904) dataset for the purpose of Image Dehazing. 
 
 ## Data Preprocessing
 The data in original forms are extremely high resolution images. Due to lack of computing resources, the images have been down-sized to 256 pixels.
