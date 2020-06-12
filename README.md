@@ -10,7 +10,7 @@ The work is a result of participation in (New Trends in Image Restoration and En
 
 Participation in NTIRE 2020 Denoising Challenge led my team secure **16th** position among **250+** registrants. [Publication Link](https://arxiv.org/abs/2005.04117)
 
-The work also discusses implementation on **Image Dehazing** as an extension to the original work on Image Denoising. Lastly, it compares our approach with two state of the art approaches on Image Translation tasks - CycleGAN and Pix2Pix. 
+Further work was done on the same post that. This work also discusses implementation on **Image Dehazing** as an extension to the original work on Image Denoising. Lastly, it compares our approach with two state of the art approaches on Image Translation tasks - CycleGAN and Pix2Pix. 
 
 | Technique | Model  | Epochs | Mean PSNR | Mean SSIM |
 | :---:   | :-: | :-: | :-: | :-: |
