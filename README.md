@@ -19,7 +19,7 @@ Further work was done on the same post that. This work also discusses implementa
 | Dehazing | CycleGAN | 1000 | 13.44 | 0.54 |
 | Dehazing | Pix2Pix | 1000 | 15.96 | 0.60 |
 
-From the results, we can conclude that our basic PyTorch implementation has been able to perform quite well compared to two state-of-the-art approaches for Image Translation tasks - CycleGAN and Pix2Pix.
+From the results, we can conclude that our basic PyTorch implementation has been able to perform quite well in general, and compared to two state-of-the-art approaches for Image Translation tasks - CycleGAN and Pix2Pix.
 
 ## Dependencies
  - PyTorch
