@@ -1,4 +1,4 @@
-# Image Restoration Techniques
+# Image Enhancement Techniques
 
 ***
 ## Overview
