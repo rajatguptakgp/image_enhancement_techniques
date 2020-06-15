@@ -4,13 +4,15 @@
 ## Overview
 This work is about removing noise/haze from noisy/hazy images to obtain clearer images using stacked autoencoders.
 
-## Results
-
+## Highlights
 The work is a result of participation in (New Trends in Image Restoration and Enhancement workshop) **NTIRE 2020 Real Image Denoising Challenge - Track2 – sRGB**, in conjunction with (Conference on Computer Vision and Pattern Recognition) **CVPR 2020, Seattle, US**.
 
 Participation in NTIRE 2020 Denoising Challenge led my team secure **16th** position among **250+** registrants. [Publication Link](https://arxiv.org/abs/2005.04117)
 
-Further work was done on the same post that. This work also discusses implementation on **Image Dehazing** as an extension to the original work on Image Denoising. Lastly, it compares our approach with two state of the art approaches on Image Translation tasks - CycleGAN and Pix2Pix. 
+This work also discusses implementation on **Image Dehazing** as an extension to the original work on Image Denoising. Our results from the Pix2Pix model position among the **Top-16** among **270+ registrants** of the **NTIRE 2019 Image Dehazing Challenge**.
+
+## Results
+Further work was done post the competition. The summary of results is as follows: 
 
 | Technique | Model  | Epochs | Mean PSNR | Mean SSIM |
 | :---:   | :-: | :-: | :-: | :-: |
