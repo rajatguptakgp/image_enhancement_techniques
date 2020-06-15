@@ -9,7 +9,7 @@ The work is a result of participation in (New Trends in Image Restoration and En
 
 Participation in NTIRE 2020 Denoising Challenge led my team secure **16th** position among **250+** registrants. [Publication Link](https://arxiv.org/abs/2005.04117)
 
-This work also discusses implementation on **Image Dehazing** as an extension to the original work on Image Denoising. Our results from the Pix2Pix model position among the **Top-16** among **270+ registrants** of the **NTIRE 2019 Image Dehazing Challenge**.
+This work also discusses implementation on **Image Dehazing** as an extension to the original work on Image Denoising. Our results from the Pix2Pix model position among the **Top-16** out of **270+ registrants** for the **NTIRE 2019 Image Dehazing Challenge**. [Report](http://openaccess.thecvf.com/content_CVPRW_2019/html/NTIRE/Ancuti_NTIRE_2019_Image_Dehazing_Challenge_Report_CVPRW_2019_paper.html)
 
 ## Results
 Further work was done post the competition. The summary of results is as follows: 
