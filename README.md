@@ -23,6 +23,10 @@ Further work was done post the competition. The summary of results is as follows
 
 From the results, we can conclude that our basic PyTorch implementation has been able to perform quite well in general, and compared to two state-of-the-art approaches for Image Translation tasks - CycleGAN and Pix2Pix.
 
+![noisy](https://user-images.githubusercontent.com/55928605/84727098-f1d8b100-afab-11ea-841a-3cb577214eae.PNG)
+![hazy](https://user-images.githubusercontent.com/55928605/84726993-c0f87c00-afab-11ea-95c8-4b1dfa05d352.PNG)
+
+
 ## Dependencies
  - PyTorch
  - OpenCV
